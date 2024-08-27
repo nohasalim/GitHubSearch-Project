@@ -1,0 +1,217 @@
+main{
+  width:100%;
+  height: 100%;
+  background-color:rgb(212, 231, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  width: 60%;
+  height:auto;
+  background-color:transparent;
+  display: grid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  grid-template-rows: 15% 15% 63%;
+  gap:20px;
+}
+.grid2,.grid3{
+  background-color:transparent;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+
+}
+.grid1{
+  background-color:transparent;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:transparent;
+
+}
+.searchform{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchform input{
+  width: 60%;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+.searchform img{
+width:50px;
+}
+.searchform button{
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2196F3;
+  color: aliceblue;
+  font-size: large;
+  cursor: pointer;
+}
+.profile-card{
+  display: grid;
+  grid-template-columns: 20% 70%;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+.grid-user-info{
+  display: grid;
+  grid-template-rows: 30% 30% 30%;
+  gap:10px;
+}
+.profile-card .about-user{
+  width: 100%;
+  height:auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.profile-card .about-user .username-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+}
+.profile-card .stats{
+  background-color: rgb(212, 231, 232);
+}
+.profile-card .stats .stats-divs{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+}
+  .profile-card .stats,.additional-info{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.userimg{
+  width: 90%;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.DarkMode{
+  background-color:hsl(228, 28%, 20%);
+  color: aliceblue;
+}
+.DarkMode .profile-card .stats{
+  background-color:hsl(228, 28%, 20%);
+}
+.DarkMode .grid2,.DarkMode .grid3{
+  background-color:transparent;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(43, 43, 84);
+}
+.DarkMode .searchform input{
+  width: 60%;
+  color:#ccc;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+@media (max-width: 600px) {
+  .profile-card .additional-info{
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  section{
+    width: 90%;
+    height:60%;
+    grid-template-rows: 10% 10% 70%;
+  gap:10px;
+   
+  }
+  
+}
