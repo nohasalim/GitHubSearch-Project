@@ -1,0 +1,21 @@
+.parentDiv{
+    width:100%;
+
+    
+}
+
+.inputDiv input{
+    width:70%;
+    height: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.inputDiv button{
+    width:20%;
+    height: 30px;
+    background-color: blue ;
+    border: none;
+    border-radius: 10px;
+   
+}

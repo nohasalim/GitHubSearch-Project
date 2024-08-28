@@ -16,6 +16,9 @@ section{
   grid-template-rows: 15% 15% 63%;
   gap:20px;
 }
+h1{
+  margin:0;
+}
 .grid2,.grid3{
   background-color:transparent;
   box-sizing: border-box;
@@ -48,6 +51,7 @@ section{
 .searchform input{
   width: 60%;
   padding: 10px;
+  font-size: large;
   border: none;
   background-color: transparent;
 }
