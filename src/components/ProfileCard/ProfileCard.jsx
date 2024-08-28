@@ -2,7 +2,6 @@ import locationIcon from "../../assets/icon-location.svg";
 import company from "../../assets/icon-company.svg";
 import twitterIcon from "../../assets/icon-twitter.svg";
 import github from "../../assets/icon-website.svg";
-import octocatImg from "../../assets/octocat.png"
 function ProfileCard({
   avatarUrl,
   username,
