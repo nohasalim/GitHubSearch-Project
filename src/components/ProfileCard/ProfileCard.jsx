@@ -2,6 +2,7 @@ import locationIcon from "../../assets/icon-location.svg";
 import company from "../../assets/icon-company.svg";
 import twitterIcon from "../../assets/icon-twitter.svg";
 import github from "../../assets/icon-website.svg";
+
 function ProfileCard({
   avatarUrl,
   username,
@@ -83,4 +84,18 @@ function ProfileCard({
     </div>
   );
 }
+
+ProfileCard.defaultProps = {
+  avatarUrl: "https://avatars.githubusercontent.com/u/583231?v=4",
+  username: "Octocat",
+  bio: "This is the Octocat's bio.",
+  repos: 8,
+  followers: 3938,
+  following: 9,
+  location: "San Francisco",
+  twitter: "octocat",
+  website: "https://github.com",
+  githubUrl: "https://github.com/octocat",
+};
+
 export default ProfileCard;
