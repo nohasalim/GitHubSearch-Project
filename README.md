@@ -1,8 +1,23 @@
-# React + Vite
+# 🧑‍💻 Devfinder – GitHub User Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to search for GitHub profiles and view profile details.  
+The app supports **Dark Mode** using a toggle switch and dynamically updates UI styling.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search GitHub users by username
+- 🌙 Dark Mode toggle (light / dark UI)
+- ⚛️ Built with React functional components
+- 🎨 Custom styling with CSS
+- 🔗 Fetches live data from GitHub API
+
+
+## 🛠️ Tech Stack
+
+| Tool           | Description            |
+|----------------|------------------------|
+| React.js       | Front-end framework    |
+| GitHub API     | Data source            |
+| CSS            | UI styling             |
+| useState Hook  | Dark mode state logic  |
+
